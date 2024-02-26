@@ -35,7 +35,9 @@ setup(
         ],
     },
     install_requires=[
-        'QtPy>=2.0.1'
+        'QtPy>=2.0.1',
+        'PyQt5>=5.15.5',
+        'PyQtWebEngine>=5.15.5
     ],
     extras_require = {
         'PyQt5' : ['PyQt5>=5.15.5','PyQtWebEngine>=5.15.5'],
